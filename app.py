@@ -47,7 +47,7 @@ Input Code/Problem:
 
             with st.spinner("⏳ Gemini is analyzing your Pregnancy..."):
                 response = client.models.generate_content(
-                    model="gemini-2.0-flash",
+                    model="gemini-2.0-flash-lite",
                     contents=prompt
                 )
                 
