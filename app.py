@@ -49,7 +49,7 @@ Input Code/Problem:
 
             with st.spinner("⏳ Analyzing your Pregnancy..."):
                 response = client.chat.completions.create(
-                    model="google/gemini-2.0-flash-001",
+                    model="google/gemini-2.0-flash-exp:free",
                     messages=[{"role": "user", "content": prompt}],
                 )
                 st.write(response.choices[0].message.content)
