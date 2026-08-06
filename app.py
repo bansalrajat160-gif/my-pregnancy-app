@@ -7,7 +7,7 @@ st.set_page_config(page_title="Pregnancy Care AI", page_icon="👶")
 st.title("✨ GEMINI ANALYSIS & Recommend")
 st.write("Enter your details below to get pregnancy analysis.")
 
-api_key = "AQ.Ab8RN6Jkx9PueaemaPkgkilZq_BAWNosIXmR2PH-MlJl9RLbVQ"
+api_key = "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"
 
 user_date = st.text_input("Enter your lmp date (DD/MM/YYYY):", placeholder="e.g. 10/04/2026")
 
